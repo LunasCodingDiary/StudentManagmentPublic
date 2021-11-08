@@ -1,10 +1,5 @@
-# Junior Phase Final Project
+# Junior Phase Final Project -- Student Management System
 
-## Getting started
-
-1. Fork and clone this repo.
-2. `npm install`.
-3. `npm run start:dev`
 ## Details
 
 ### The Premise
@@ -15,24 +10,12 @@ You are the CTO of a company which manages Campuses and Enrollments. Create a RE
 
 For this project, you must use Express to handle HTTP requests and Sequelize to interface with your database. Likewise, you must use React, Redux and React-Redux on the front-end. This means that all important state (i.e. students and campuses) must be managed by the Redux store (unimportant state, like form data, may be managed by stateful React components). Components that display student/campus data should therefore be connected to the Redux store. 
 
-- other client side libraries you will need
+- client side libraries used:
 - redux
 - react-redux
 - react-router-dom
 - redux-thunk
 - axios
-
-### Requirements + Rubric (see rubric file)
-
-## Requirements
-
-- the application needs to be deployed
-- the application needs to load without errors (blank screens are not acceptable)
-- do not copy and paste previous code!
-- you will have ample time to complete project, NO EXTENSIONS WILL BE GIVEN
-- build incrementally! 
-- if you have an error, fix the error, before attempting to **add** functionality
-
 
 ### Views and Functionality
 
@@ -175,15 +158,3 @@ You can determine views and functionality from the requirements and wireframes s
 - [ ] Implement _back-end_ pagination for students (e.g. `/api/students?page=1` returns the first ten students' data, and `/api/students?page=2` returns students 11-20)
 - [ ] Implement _back-end_ pagination for campuses (e.g. `/api/campuses?page=1` returns the first ten campuses' data, and `/api/campuses?page=2` returns campuses 11-20)
 
-
-* `RUBRIC.md` - contains the grading rubric for additional factors, as well as the formula for calculating the total score
-
-
-
-
-
-## Evaluation
-
-- Requirements score (70%)
-- Rubric score (30%)
-- Extra credit (15% max)
